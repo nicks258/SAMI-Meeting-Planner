@@ -1,0 +1,141 @@
+@font-face {
+  font-family: Dubai-Regular;
+  src: url("../assets/font/Dubai-Regular.ttf");
+}
+@font-face {
+  font-family: Dubai-Light;
+  src: url("../assets/font/Dubai-Light.ttf");
+}
+@font-face {
+  font-family: Dubai-Medium;
+  src: url("../assets/font/Dubai-Medium.ttf");
+}
+@font-face {
+  font-family: Dubai-Bold;
+  src: url("../assets/font/Dubai-Bold.ttf");
+}
+
+ page-room-details {
+
+   .background_image
+   {
+     background-image: linear-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../assets/imgs/back.jpg);
+     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../assets/imgs/back.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+   }
+   .logo_dubai
+   {
+     width: 80mm;float: right
+   }
+   .inner_box
+   {
+     background-color: rgba(0,144,215,0.2);padding: 30px 0px 25px;border-radius: 40px 0;
+   }
+   ion-item
+   {
+     margin-bottom:20px!important;
+     background-color: rgba(0,144,215,0.3)!important;
+     color: #fff!important;
+     padding-left: 15px!important;
+   }
+   .list-md .item-block .item-inner
+   {
+     border-bottom: none!important;
+   }
+   .list-md .item-input:last-child
+   {
+     border-bottom: none!important;
+   }
+   .list-ios > .item-block:last-child, .list-ios > .item-wrapper:last-child .item-block {
+     border-bottom: 0px solid rgb(0, 144, 215) !important;
+   }
+   .list-ios > .item-block:first-child {
+     border-top: 0px solid rgb(0, 144, 215) !important;
+   }
+   .item-md
+   {
+     font-size: 2.1rem!important;
+   }
+   .item-inner
+   {
+     border-bottom: none!important;
+   }
+   .item-input .label-md, .item-select .label-md, .item-datetime .label-md
+   {
+     color: #fff!important;
+   }
+   .button_submit
+   {
+     display: block;
+     margin: auto;
+     background-color: #0090d7;
+     padding: 1.3em 2.3em;
+     border-radius: 0;
+     margin-top: 40px;
+    // border-top-left-radius: 20px;
+    // border-bottom-right-radius: 20px;
+     font-size: 2rem;
+   }
+
+   .button_delete
+   {
+     display: block;
+     margin: auto;
+     background-color: #0090d7;
+     padding: 1.3em 2.3em;
+     border-radius: 0;
+     margin-top: 40px;
+   //  border-top-left-radius: 20px;
+    // border-bottom-right-radius: 20px;
+     font-size: 2rem;
+   }
+
+   @media(min-width: 1024px) {
+     .metting_date {
+       float: left;
+       color: #ffffff;
+       font-family: Dubai-Light;
+       font-size: 3.5rem;
+     }
+     .logo_dubai {
+       width: 65mm;
+       float: right
+     }
+     .inner_box {
+       background-color: rgba(0, 144, 215, 0.2);
+       padding: 40px 0px 15px;
+       border-radius: 40px 0;
+     }
+     ion-item {
+       color: #ffffff !important;
+       background-color: rgba(0, 144, 215, 0.3) !important;
+       font-size: 2.4rem !important;
+       padding-left: 15px !important;
+       margin-bottom: 8px !important;
+     }
+     .button_submit {
+       display: block;
+       margin: 10px auto;
+    //   background-color: #0090d7;
+       padding: 0 2em;
+       border-radius: 0;
+    //   border-top-left-radius: 25px;
+     //  border-bottom-right-radius: 25px;
+       font-size: 2.5rem;
+     }
+     .button_delete
+     {
+       display: block;
+       margin: auto;
+       background-color: #0090d7;
+       padding: 1.3em 2.3em;
+       border-radius: 0;
+       margin-top: 40px;
+      // border-top-left-radius: 20px;
+      // border-bottom-right-radius: 20px;
+       font-size: 2rem;
+     }
+   }
+ }
